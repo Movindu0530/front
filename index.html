@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Manager Pro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Stock Manager Pro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero bg-black text-white text-center py-5" data-aos="fade-up">
+        <div class="container">
+            <h1>Welcome to Stock Manager Pro</h1>
+            <p class="lead">Your ultimate solution for inventory management</p>
+            <a href="register.html" class="btn btn-outline-light btn-lg mt-4">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features bg-light py-5">
+        <div class="container" data-aos="fade-right">
+            <h2 class="text-center mb-4">Why Choose Us?</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-graph-up-arrow text-primary fs-1"></i>
+                    <h4>Track Your Inventory</h4>
+                    <p>Monitor stock levels, movements, and trends in real-time.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-speedometer2 text-danger fs-1"></i>
+                    <h4>Boost Efficiency</h4>
+                    <p>Streamline your inventory processes for maximum productivity.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-people text-success fs-1"></i>
+                    <h4>Stay Connected</h4>
+                    <p>Collaborate with your team seamlessly from anywhere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p>&copy; 2024 Stock Manager Pro. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
